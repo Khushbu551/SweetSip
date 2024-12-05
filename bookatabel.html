@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Reserve your spot at SweetSip. Enjoy a cozy ambiance and the finest coffee and desserts. Book a table now."
+    />
+    <title>Book a Table - SweetSip</title>
+    <!-- Fornt Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b8d355edd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- ------------------------------------------------------------------------------------------------------ -->
+
+  <!-- Header & Navbar Section -->
+  <body class="book-page">
+    <header>
+      <nav class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+          <a href="index.html"
+            ><i class="fa-solid fa-mug-saucer"></i>SweetSip</a
+          >
+        </div>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <!-- Purpose: Link to othe pages for navigation -->
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <!-- Burger-Menu -->
+        <div class="burger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <!-- Hero Section -->
+
+    <section class="hero-book">
+      <!-- Hero Titel , Description -->
+      <h1 class="hero-title">Reserve Your Spot</h1>
+      <p class="hero-description">
+        Experience The Perfect Blend Of Sweetness & Comfort.
+      </p>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <!-- Booking From Section -->
+
+    <main>
+      <section class="booking-section">
+        <h2 class="form-title">Book a Table</h2>
+        <form class="booking-form" action="#">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <!-- phone -->
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <!-- Date -->
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <!-- Time -->
+          <div class="form-group">
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+
+          <!-- Number of Guests -->
+          <div class="form-group">
+            <label for="guests">Number of Guests</label>
+            <input
+              type="number"
+              id="guests"
+              name="guests"
+              min="1"
+              max="20"
+              placeholder="Enter number of guests"
+              required
+            />
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn-submit">Reserve Now</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 SweetSip. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" class="neon-effect"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://fa-instagram.com" class="neon-effect"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com" class="neon-effect"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
