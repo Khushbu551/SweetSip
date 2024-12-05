@@ -30,6 +30,7 @@
 /* ----------------------------------------------------------------------------------- */
 
 /* Navbar Styling */
+
 .main-page {
   height: auto;
   overflow-x: hidden;
@@ -205,12 +206,11 @@ footer {
   height: 8%;
   width: 100%;
   border: 2px solid white;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  position: sticky;
-  bottom: 0;
 }
 
 .footer p {
