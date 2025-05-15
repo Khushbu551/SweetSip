@@ -32,6 +32,8 @@ The website is **responsive** and Works seamlessly on all devices .
 
 ---
 
+**Note:** THis project was built for learning purposes to explore and practice [mention technologies]. Security and production-level optimizations are not the primary focus.
+
 ## Live-view
 
 https://khushbu551.github.io/SweetSip/
